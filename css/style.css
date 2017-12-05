@@ -1,0 +1,59 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+	color: #676858;
+	font-weight: 300;
+}
+
+span {
+	background-color: white;
+	opacity: 0.85;
+}
+
+img {
+	width: 100%;
+	max-width: 300px;
+}
+
+input {
+	width: 100%;
+}
+
+h5,
+.listElement {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.list {
+	background-color: white;
+	opacity: 0.85;
+}
+
+.listElement:hover {
+	color: black;
+	background-color: #efefef;
+}
+
+/* Wrapper for page content to push down footer */
+.wrap {
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto -65px;
+	padding: 0 0 65px;
+}
+
+footer {
+	height: 65px;
+}
+
+/* Full screen map */
+#map-canvas {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
